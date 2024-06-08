@@ -31,9 +31,38 @@
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio</title>
+    <meta
+      name="descrition"
+      content="Maitumelo's work-Maitumelo Moaletsi is a front-end engineer based in Gaborone Botswana"
+    />
+    <title>Maitumelo's work-Front-end developer-Maitumelo Moaletsi</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/shecodes logo.png"
+            class="logo d-none d-md-block"
+            alt="Maitumelo logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/index.html" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Maitumelo"> About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Maitumelo's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Maitumelo"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I have been working on!</h1>
@@ -42,7 +71,7 @@
             <img
               src="images/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt project preview"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -51,7 +80,7 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather app preview"
             />
             <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center text-muted">
@@ -62,7 +91,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary app preview"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">Built with HTML,CSS and React</p>
@@ -71,7 +100,7 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation app preview"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">Built with HTML,CSS and React</p>
@@ -79,5 +108,52 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Maitumelo"
+            >Contact me!</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailtokopomasuga64@gmail.com"
+          class="email-link"
+          title="Email Maitumelo"
+        >
+          kopomasuga64</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/lulumoalesti" target="_blank">
+          <i class="fab fa-instagram" title="Instagram Prpfile"></i>
+        </a>
+        <a href="https://www.github.com/lulu" target="_blank">
+          <i class="fab fa-github" title="Github Profile"></i>
+        </a>
+        <a href="https://www.facbook.com/lulu" target="_blank">
+          <i class="fab fa-facebook" title="Facebook Page"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4 mb-4">
+        This project was coded by Maitumelo Moaletsi and is
+        <a
+          href="https://github.com/MLZ6/Portfolio-Project-Lulu"
+          target="_blank"
+        >
+          open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
