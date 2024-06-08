@@ -33,7 +33,7 @@ p {
   font-style: normal;
   color: aqua;
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
 }
 .hero {
@@ -110,6 +110,34 @@ nav a:hover {
   text-decoration: underline;
   transition: all 200ms ease-in-out;
 }
+footer .contact-box {
+  padding: 30px;
+}
+footer .contact-box h4 {
+  font-size: 48px;
+}
+footer .contact-box p {
+  padding: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: aqua;
+  font-size: 30px;
+}
+footer .email-link:hover {
+  text-decoration: underline;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: aqua;
+  padding: 10px;
+  font-size: 25px;
+  transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -117,6 +145,9 @@ nav a:hover {
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 18px;
   }
   .hero {
     padding: 80px 20px;
